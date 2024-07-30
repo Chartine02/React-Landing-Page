@@ -40,6 +40,7 @@ const Features = () => {
       <FeatureCard
         key={featureInfo.indexOf(feature) + 1}
         icon={feature.icon}
+        h
         title={feature.title}
         description={feature.description}
       />
